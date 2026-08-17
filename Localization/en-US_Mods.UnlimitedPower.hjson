@@ -1,0 +1,6 @@
+Items: {
+	UnlimitedPower: {
+		DisplayName: Unlimited Power
+		Tooltip: ""
+	}
+}

@@ -1,0 +1,3 @@
+displayName = Unlimited Power
+author = JameEmmanuel
+version = 0.1
