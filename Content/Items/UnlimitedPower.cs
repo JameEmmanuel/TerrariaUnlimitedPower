@@ -22,7 +22,7 @@ namespace UnlimitedPower.Content.Items
 
         public override void UpdateAccessory(Player player, bool hideVisual)
         {
-            // +9999% damage
+            // +99999% damage
             player.GetDamage(DamageClass.Generic) += 999.99f;
 
             // +9999 fishing power
