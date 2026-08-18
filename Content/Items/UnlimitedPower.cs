@@ -22,8 +22,8 @@ namespace UnlimitedPower.Content.Items
 
         public override void UpdateAccessory(Player player, bool hideVisual)
         {
-            // +99999% damage
-            player.GetDamage(DamageClass.Generic) += 999.99f;
+            // +9999% damage
+            player.GetDamage(DamageClass.Generic) += 99.99f;
 
             // +9999 fishing power
             player.fishingSkill += 9999;
@@ -46,12 +46,43 @@ namespace UnlimitedPower.Content.Items
             // Infinite flight
             player.wingTimeMax = 999999;
             player.wingTime = player.wingTimeMax;
+
+            //No Knockback
+            player.noKnockback = true;
+
+            //No fall damage
+            player.noFallDmg = true;
+
+            // Infinite health
+            player.statLife = player.statLifeMax2;
+
+            // Infinite mana
+            player.statMana = player.statManaMax2;
+
+            // Extremely fast movement
+            player.moveSpeed += 2f;
+
+            // Night vision
+            player.nightVision = true;
+
+            // Character emits light
+            player.AddBuff(BuffID.Shine, 2);
         }
 
         public override void ModifyTooltips(List<TooltipLine> tooltips)
         {
-            tooltips.Add(new TooltipLine(Mod, "DamageBonus", "+99999% damage"));
+            tooltips.Add(new TooltipLine(Mod, "DamageBonus", "+9999% damage"));
             tooltips.Add(new TooltipLine(Mod, "FishingBonus", "9999 fishing power"));
+            tooltips.Add(new TooltipLine(Mod, "MiningBonus", "Extremely fast mining"));
+            tooltips.Add(new TooltipLine(Mod, "BreathBonus", "Infinite breath"));
+            tooltips.Add(new TooltipLine(Mod, "FireWalk", "Immune to fire blocks"));
+            tooltips.Add(new TooltipLine(Mod, "LavaImmune", "Immune to lava"));
+            tooltips.Add(new TooltipLine(Mod, "LuckBonus", "Maximum luck"));
+            tooltips.Add(new TooltipLine(Mod, "FlightBonus", "Infinite flight"));
+            tooltips.Add(new TooltipLine(Mod, "KnockbackBonus", "Immune to knockback"));
+            tooltips.Add(new TooltipLine(Mod, "FallDamage", "Immune to fall damage"));
+            tooltips.Add(new TooltipLine(Mod, "HealthBonus", "Infinite health regeneration"));
+            tooltips.Add(new TooltipLine(Mod, "ManaBonus", "Infinite mana regeneration"));
         }
 
         public override void AddRecipes()
