@@ -6,15 +6,30 @@ A tModLoader mod for Terraria that adds an intentionally absurdly overpowered ac
 
 The **Unlimited Power** accessory provides:
 
+### Combat & Survival
+
 - 9999 defense
-- +99,999% damage
-- 9999 fishing power
-- 99% faster mining
-- Infinite breath
-- Fire block immunity
-- Lava immunity
+- +9999% damage
+- Infinite health
+- Infinite mana
+- Immunity to knockback
+- Immunity to fall damage
 - Maximum luck
+
+### Movement & Exploration
+
 - Infinite flight
+- Extremely fast movement
+- Extremely fast mining
+- Infinite breath
+- Immunity to fire blocks
+- Immunity to lava
+- Night vision
+- Character emits light
+
+### Fishing
+
+- 9999 fishing power
 
 The accessory is intentionally ridiculous and is designed primarily as a fun/experimental mod.
 
@@ -48,4 +63,3 @@ This is an experimental mod and features may change in future versions.
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-EOF
