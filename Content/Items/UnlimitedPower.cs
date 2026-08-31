@@ -22,9 +22,6 @@ namespace UnlimitedPower.Content.Items
 
         public override void UpdateAccessory(Player player, bool hideVisual)
         {
-            // +9999% damage
-            player.GetDamage(DamageClass.Generic) += 99.99f;
-
             // +9999 fishing power
             player.fishingSkill += 9999;
 
@@ -71,7 +68,6 @@ namespace UnlimitedPower.Content.Items
 
         public override void ModifyTooltips(List<TooltipLine> tooltips)
         {
-            tooltips.Add(new TooltipLine(Mod, "DamageBonus", "+9999% damage"));
             tooltips.Add(new TooltipLine(Mod, "FishingBonus", "9999 fishing power"));
             tooltips.Add(new TooltipLine(Mod, "MiningBonus", "Extremely fast mining"));
             tooltips.Add(new TooltipLine(Mod, "BreathBonus", "Infinite breath"));

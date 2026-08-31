@@ -1,1 +1,55 @@
-Modify this file with a description of your mod.
+# UnlimitedPower
+
+Ever wished Terraria had a completely balanced, carefully designed accessory?
+
+Yeah, me neither.
+
+**UnlimitedPower** adds one ridiculously overpowered accessory to Terraria. Crafted from nothing more than **10 Wood and 10 Dirt**, it gives you powers that completely ignore the concept of game balance.
+
+## What does it do?
+
+**Combat & Survival**
+
+* +9999 Defense
+* Infinite Health
+* Infinite Mana
+* Maximum Luck
+* No Knockback
+* No Fall Damage
+
+**Movement & Exploration**
+
+* Infinite Flight
+* Extremely Fast Movement
+* Extremely Fast Mining
+* Infinite Breath
+* Fire Block Immunity
+* Lava Immunity
+* Night Vision
+* Emits Light
+
+**Fishing**
+
+* 9999 Fishing Power
+
+## Crafting
+
+### Standard Recipe
+
+* 10 Wood
+* 10 Dirt Block
+
+### Ash Recipe
+
+* 10 Ash Wood
+* 10 Ash Block
+
+No crafting station required.
+
+## Why?
+
+Because Terraria is obviously too difficult when you're not able to mine a block in approximately 0.00001 seconds while flying indefinitely through lava.
+
+This mod is intended as a **fun, absurd, and experimental power fantasy**, not as a balanced gameplay experience.
+
+**Current status: Beta**
